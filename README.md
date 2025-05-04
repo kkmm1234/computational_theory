@@ -44,7 +44,6 @@ In order to run this project you will need to add the following files:
 - words.txt: this should contain a dictionary of words that will be used in the Proof of Work function for Task 6
 
 ## Cloning repo
-Prerequisites
 - Python 3.10 or higher
 - All libraries used are Standard Libraries
 - Clone repo: git clone https://github.com/kkmm1234/computational_theory
