@@ -46,6 +46,7 @@ In order to run this project you will need to add the following files:
 ## Cloning repo
 - Python 3.10 or higher
 - All libraries used are Standard Libraries
+- All requirments are listed in 'requirments.txt'
 - Clone repo: git clone https://github.com/kkmm1234/computational_theory
 - Run: jupyter notebook tasks.ipynb
 - Or execute through Visual Studio code using jupyter extensions selecting a kernal and running at the top of the workbook
