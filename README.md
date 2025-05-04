@@ -3,18 +3,18 @@ This repository contains implementations of some fundemental computational theor
 
 ## Task Overview
 1. Binary Representations: This task is a implementation of bit manipulation functions used in cryptographic algorithms
-  - rotl(x, n=1): Rotates bits in a 32-bit unsigned integer left by n places
-  - rotr(x, n=1): Rotates bits in a 32-bit unsigned integer right by n places
-  - ch(x,y,z): Choose bits from y or z based on the corresponding bits in x
-  - maj(x,y,z): Takes a majority vote of the bits in x, y, and z
+   - rotl(x, n=1): Rotates bits in a 32-bit unsigned integer left by n places
+   - rotr(x, n=1): Rotates bits in a 32-bit unsigned integer right by n places
+   - ch(x,y,z): Choose bits from y or z based on the corresponding bits in x
+   - maj(x,y,z): Takes a majority vote of the bits in x, y, and z
 
 2. Hash Functions - Implementation of a Kernighan and Ritche's string hasing function
-  - Polynominal rolling hash function with 31 as base and 101 as modulus
-  - Analysis of why these constants are effective
+   - Polynominal rolling hash function with 31 as base and 101 as modulus
+   - Analysis of why these constants are effective
 
 3. SHA-256 - Examining the padding mechanism in the SHA-256 hashing algorithm
-  - Implementation of the standardised padding procedure as in FIPS180-4
-  - Demonstration with example input "abc"
+   - Implementation of the standardised padding procedure as in FIPS180-4
+   - Demonstration with example input "abc"
 
 4. Prime Numbers - Two algorithms for calculating prime numbers
    - Sieve of Eratosthenes: Memory-efficient approach for finding n primes
